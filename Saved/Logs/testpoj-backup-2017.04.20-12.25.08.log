@@ -1,0 +1,260 @@
+﻿Log file open, 04/18/17 18:51:25
+LogInit:Display: Running engine for game: testpoj
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1926554199) SRandInit(-1926554199).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089806
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+OCULUS: Debug: Connected to the server running version (prod = 1).1.13.0(build = 361842) feature version = 0. Client runs version (prod = 1).1.13.0(build = 361842) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 59.3mm
+OCULUS: Debug: Creating factory
+OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.18-09.51.27:216][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-09.51.27:216][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.18-09.51.27:227][  0]LogInit: Computer: T5810-067
+[2017.04.18-09.51.27:227][  0]LogInit: User: chou
+[2017.04.18-09.51.27:227][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.18-09.51.27:227][  0]LogInit: High frequency timer resolution =3.410107 MHz
+[2017.04.18-09.51.27:228][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2017.04.18-09.51.27:228][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-09.51.27:228][  0]LogMemory: Process Physical Memory: 270.35 MB used, 270.35 MB peak
+[2017.04.18-09.51.27:228][  0]LogMemory: Process Virtual Memory: 267.96 MB used, 267.96 MB peak
+[2017.04.18-09.51.27:228][  0]LogMemory: Physical Memory: 23433.14 MB used,  42025.21 MB free, 65458.36 MB total
+[2017.04.18-09.51.27:228][  0]LogMemory: Virtual Memory: 665.05 MB used,  42025.21 MB free, 8388608.00 MB total
+[2017.04.18-09.51.27:319][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (真の場合、Relevant anim ノードはアニメーションで最も高いウェイトのものを無視します。
+このノード)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (319969718) Localized String: (真の場合、アニメーションで最も高いウェイトのものを無視するRelevant anim ノードは
+このノードを無視します)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ループ再生するようにしますか？)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (2133979316) Localized String: (最後に到達した時にアニメーションのループを継続しますか？)
+[2017.04.18-09.51.27:405][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+[2017.04.18-09.51.28:042][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.18-09.51.28:644][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.04.18-09.51.28:644][  0]LogD3D11RHI:       1969/0/32473 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.18-09.51.28:644][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.18-09.51.28:650][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.18-09.51.28:650][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.18-09.51.28:651][  0]LogWindows: EnumDisplayDevices:
+[2017.04.18-09.51.28:651][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.04.18-09.51.28:651][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.04.18-09.51.28:651][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.18-09.51.28:651][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.04.18-09.51.28:651][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.04.18-09.51.28:651][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.04.18-09.51.28:651][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.04.18-09.51.28:652][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.04.18-09.51.28:652][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.04.18-09.51.28:652][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.04.18-09.51.28:652][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.04.18-09.51.28:652][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.18-09.51.29:234][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.18-09.51.29:265][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.18-09.51.29:349][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../ue4/testpoj/Intermediate/Shaders/WorkingDirectory/5068/).
+[2017.04.18-09.51.29:349][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chou/AppData/Local/Temp/UnrealShaderWorkingDir/84A6AF364D6B34617D6A06AE10879CF8/'.
+[2017.04.18-09.51.29:349][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.18-09.51.30:730][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.18-09.51.30:791][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.18-09.51.30:852][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.18-09.51.30:913][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.18-09.51.30:973][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.18-09.51.31:031][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.18-09.51.31:087][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.18-09.51.31:144][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.18-09.51.31:190][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.18-09.51.31:242][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.18-09.51.31:299][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.18-09.51.31:357][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.18-09.51.31:416][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.18-09.51.31:470][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.18-09.51.31:529][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.18-09.51.31:644][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.18-09.51.31:644][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.18-09.51.31:686][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.18-09.51.31:784][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.18-09.51.31:813][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.18-09.51.31:868][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.18-09.51.31:926][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.18-09.51.31:984][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.18-09.51.32:042][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.18-09.51.32:042][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.18-09.51.32:429][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache: Loaded boot cache 0.05s 51MB C:/Users/chou/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/chou/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../ue4/testpoj/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../ue4/testpoj/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.18-09.51.32:484][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.18-09.51.32:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.18-09.51.32:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chou/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.18-09.51.32:539][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.18-09.51.32:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-09.51.32:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-09.51.33:012][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-09.51.33:013][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.18-09.51.33:249][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.18-09.51.33:296][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.18-09.51.33:349][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.18-09.51.33:349][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.18-09.51.33:349][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.18-09.51.33:939][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: testpoj, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 874616299
+[2017.04.18-09.51.33:977][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
+[2017.04.18-09.51.34:062][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.067032 seconds
+[2017.04.18-09.51.34:068][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.18-09.51.34:068][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.04.18-09.51.34:068][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.18-09.51.34:118][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.18-09.51.36:491][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-09.51.36:491][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-09.51.36:835][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.18-09.51.36:899][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.18-09.51.37:416][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.18-09.51.37:883][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.04.18-09.51.37:884][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.04.18-09.51.37:943][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.04.18-09.51.37:999][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.04.18-09.51.39:029][  0]LogHoudiniEngine: Starting the Houdini Engine module.
+[2017.04.18-09.51.39:029][  0]LogHoudiniEngine: Loaded libHAPIL.dll from HFS environment path D:/SIDEEF~1/HOUDIN~1.557/bin
+[2017.04.18-09.51.39:030][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.18-09.51.39:032][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.18-09.51.39:037][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.04.18-09.51.40:133][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
+[2017.04.18-09.51.40:655][  0]LogEngine: Initializing Engine...
+[2017.04.18-09.51.40:655][  0]LogHMD: Oculus plugin initialized. Version: 4.15.1-3348071+++UE4+Release-4.15, LibOVR: 1.13.0, SDK: 1.10.0, built Mar 15 2017, 16:59:09
+[2017.04.18-09.51.40:808][  0]OCULUS: Debug: [HMDState] Using default profile default
+[2017.04.18-09.51.40:808][  0]OCULUS: Info: IAD changed to 59.3mm
+[2017.04.18-09.51.40:808][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-09.51.40:949][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.18-09.51.40:981][  0]LogInit: XAudio2 using 'DELL U2413-8 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-09.51.40:993][  0]LogInit: FAudioDevice initialized.
+[2017.04.18-09.51.41:021][  0]LogDerivedDataCache: Saved boot cache 0.03s 51MB C:/Users/chou/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.18-09.51.41:028][  0]LogInit: Texture streaming: Enabled
+[2017.04.18-09.51.41:105][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.18-09.51.41:207][  0]LogInit: Transaction tracking system initialized
+[2017.04.18-09.51.41:595][  0]BlueprintLog: New page: エディタの読み込み
+[2017.04.18-09.51.42:757][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.04.18-09.51.43:564][  0]LogConsoleResponse:Display: 
+[2017.04.18-09.51.43:714][  0]LogFileCache: Scanning file cache for directory 'D:/ue4/testpoj/Content/' took 0.01s
+[2017.04.18-09.51.43:714][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.18-09.51.43:714][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.18-09.51.44:513][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
+[2017.04.18-09.51.44:980][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.04.18-09.51.44:980][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.18-09.51.44:981][  0]LightingResults: New page: ライティングのビルド
+[2017.04.18-09.51.45:033][  0]MapCheck: New page: マップをチェック
+[2017.04.18-09.51.45:033][  0]LightingResults: New page: <何も選択されていません>
+[2017.04.18-09.51.45:288][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.04.18-09.51.45:311][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.18-09.51.45:315][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.18-09.51.45:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.18-09.51.45:466][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 146.42ミリ秒かかりました。
+[2017.04.18-09.51.45:466][  0]LogFileHelpers: Loading map 'Template_Default' took 0.486
+[2017.04.18-09.51.45:674][  0]LogCollectionManager: Loaded 0 collections in 0.001620 seconds
+[2017.04.18-09.51.45:765][  0]LogFileCache: Scanning file cache for directory 'D:/ue4/testpoj/Saved/Collections/' took 0.01s
+[2017.04.18-09.51.45:765][  0]LogFileCache: Scanning file cache for directory 'D:/ue4/testpoj/Content/Developers/chou/Collections/' took 0.01s
+[2017.04.18-09.51.45:765][  0]LogFileCache: Scanning file cache for directory 'D:/ue4/testpoj/Content/Collections/' took 0.01s
+[2017.04.18-09.51.45:765][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.04.18-09.51.45:776][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2280 classes and 459 folders.
+[2017.04.18-09.51.45:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.18-09.51.45:781][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.18-09.51.45:848][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.04.18-09.51.45:944][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.18-09.51.45:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.18-09.51.46:135][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.18-09.51.46:142][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.04.18-09.51.46:226][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.04.18-09.51.46:226][  0]LogLoad: (Engine Initialization) Total time: 22.05 seconds
+[2017.04.18-09.51.46:226][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.04.18-09.51.46:226][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.18-09.51.46:226][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.18-09.51.46:241][  0]LogOcInput: OculusInput pre-init called
+[2017.04.18-09.51.46:262][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.13.0
+[2017.04.18-09.51.46:284][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.18-09.51.46:285][  0]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.18-09.51.46:291][  0]LogSlate: Took 0.003075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.18-09.51.46:294][  0]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.18-09.51.46:302][  0]LogSlate: Took 0.000630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.18-09.51.46:452][  0]LogRenderer: Reallocating scene render targets to support 1208x648 NumSamples 1 (Frame:2).
+[2017.04.18-09.51.46:687][  1]LogAssetRegistry: Asset discovery search completed in 12.7231 seconds
+[2017.04.18-09.51.46:687][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.04.18-09.51.46:687][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.04.18-09.51.50:081][301]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-10.16.38:656][386]SourceControl:Error: エラー Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.18-10.17.32:828][482]SourceControl:Error: エラー Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.18-10.17.33:448][535]SourceControl:Error: エラー Failed to enable Git source control. You need to initialize the project as a Git repository first.
+[2017.04.18-10.37.09:698][258]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-10.37.09:698][258]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-10.37.09:698][258]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
+[2017.04.18-10.37.09:698][258]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(608fcll)
