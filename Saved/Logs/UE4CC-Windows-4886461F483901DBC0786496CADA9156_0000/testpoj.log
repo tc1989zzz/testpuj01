@@ -340,15 +340,3 @@ Localization Resource: (D:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.04.20-10.29.51:517][581]LogOutputDevice:Error: ntdll.dll!0x000000007711A2E1
 [2017.04.20-10.29.51:517][581]LogOutputDevice:Error: 
 [2017.04.20-10.29.51:521][581]LogStats:                SubmitErrorReport -  0.000 s
-[2017.04.20-10.29.55:867][581]LogStats:                    SendNewReport -  4.346 s
-[2017.04.20-10.29.55:867][581]LogStats:             FDebug::EnsureFailed -  4.617 s
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 On branch master
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 Your branch is up-to-date with 'origin/master'.
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 Changes not staged for commit:
-[2017.04.20-10.30.39:701][581]SourceControl: 情報   (use "git add <file>..." to update what will be committed)
-[2017.04.20-10.30.39:701][581]SourceControl: 情報   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 	modified:   Saved/Logs/testpoj.log
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 Untracked files:
-[2017.04.20-10.30.39:701][581]SourceControl: 情報   (use "git add <file>..." to include in what will be committed)
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 	Saved/Logs/UE4CC-Windows-4886461F483901DBC0786496CADA9156_0000/
-[2017.04.20-10.30.39:701][581]SourceControl: 情報 no changes added to commit (use "git add" and/or "git commit -a")
